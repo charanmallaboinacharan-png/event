@@ -1,0 +1,34 @@
+# Environments & Secrets
+.env
+*.env
+backend/.env
+frontend/.env
+.venv/
+backend/.venv/
+**/__pycache__/
+*.pyc
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+cloudflared.exe
+run_tunnel.ps1
+
+# Logs & temp
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / System
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
